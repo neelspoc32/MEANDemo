@@ -1,0 +1,15 @@
+<!Doctype html>
+<html>
+	<head>
+	</head>
+		<body>
+		<span>hi</span>
+		</body>	
+		<script data-main="assets/js/common" src="assets/js/lib/require.js"></script>
+		<script type="text/javascript">
+		require(['common'],function(){
+			//loads up the page script,once the 'common' script has loaded
+			require(['page/home']); 
+		});		
+		</script>
+</html>
